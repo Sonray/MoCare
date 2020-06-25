@@ -5,7 +5,7 @@
     align-content: center;
     padding-top: 20px;
 }
-nav {
+.class, #ras {
     position: float;
     width: 49%;
     height: 50px;
@@ -35,17 +35,19 @@ h1{
     font-size: 220px;
     margin-left: 50px;
 }
-#first, p {
+#first, p:first-child {
     margin-top: -150px;
     margin-left: 50px;
 }
-#second{
+.second {
     height: 80px;
-    width: 100%;
     background-color: blue;
     opacity: 0.4;
-    margin-top: 35px;
+    margin-top: 82px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
-#second, p {
-    margin-top: 102px;
+.second > p {
+    margin-top: 10px;
+    width: 60%;
 }
