@@ -40,14 +40,31 @@ h1{
     margin-left: 50px;
 }
 .second {
-    height: 80px;
+    height: 90px;
     background-color: blue;
-    opacity: 0.4;
+    opacity: 0.5;
     margin-top: 82px;
     padding-top: 10px;
     padding-left: 10px;
 }
 .second > p {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 60%;
+}
+.core{
+    height: 500px;
+    background-color: rgb(219, 199, 171);
+}
+#form{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+input {
+    height: 30px;
+    margin-bottom: 10px;
 }
