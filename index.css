@@ -35,21 +35,40 @@ h1{
     font-size: 220px;
     margin-left: 50px;
 }
+h2{
+    background-color: rgb(94, 255, 0);
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 25%;
+    text-align: center;
+}
 #first, p:first-child {
     margin-top: -150px;
     margin-left: 50px;
 }
 .second {
     height: 90px;
+    display: flex;
     background-color: blue;
     opacity: 0.5;
     margin-top: 82px;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-left: 10px;
 }
 .second > p {
-    margin-top: 20px;
+    margin-top: 1px;
     width: 60%;
+    font-size: 25px;
+}
+.navigation{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.second nav a{
+    background-color: green;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 .core{
     height: 345px;
