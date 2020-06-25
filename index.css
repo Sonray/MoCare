@@ -35,19 +35,133 @@ h1{
     font-size: 220px;
     margin-left: 50px;
 }
+h2{
+    background-color: rgb(94, 255, 0);
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 25%;
+    text-align: center;
+}
 #first, p:first-child {
     margin-top: -150px;
     margin-left: 50px;
 }
 .second {
-    height: 80px;
+    height: 90px;
+    display: flex;
     background-color: blue;
-    opacity: 0.4;
+    opacity: 0.5;
     margin-top: 82px;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-left: 10px;
 }
 .second > p {
-    margin-top: 10px;
+    margin-top: 1px;
     width: 60%;
+    font-size: 25px;
+}
+.navigation{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.second nav a{
+    background-color: green;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.core{
+    height: 345px;
+    display: flex;
+    background-color: rgb(219, 199, 171);
+}
+#form{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+input {
+    height: 40px;
+    margin-bottom: 10px;
+}
+#center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    width: 45%;
+    height: 500px;
+    padding-top: 10px;
+    flex: 50%;
+    max-width: 50%;
+}
+#center, img{
+    display: flex;
+    width: 280px;
+    height: 158px;
+    object-fit: fill;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+#right{
+    margin-top: 10px;
+    width: 20%;
+    text-align: left;
+    background-color: cyan;
+}
+#right, tr:first-child{
+    text-align: center;
+}
+td,th{
+    text-align: center;
+    padding: 6px;
+}
+table{
+    width: 100%;
+}
+footer{
+    margin-top: 0;
+    background-color: violet;
+    height: 10px;
+    text-align: center;
+}
+#foot{
+    padding-top: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: violet;
+}
+.contact{
+    display: flex;
+    margin-right: 40px;
+}
+.contact p:last-child{
+    margin-top: -23%;
+    margin-left: 220px;
+}
+.important{
+    margin-left: 65%;
+}
+.important img  {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    margin-left: 20%;
+}
+#polo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    padding-top: 10px;
+    padding-left: 20px;
+    flex: 20%;
+    max-width: 90%;
+    margin-top: 0;
+    margin-left: 45px;
+}
+footer p{
+    margin-top: -6%;
 }
