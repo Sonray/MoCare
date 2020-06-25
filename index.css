@@ -52,7 +52,7 @@ h1{
     width: 60%;
 }
 .core{
-    height: 500px;
+    height: 345px;
     display: flex;
     background-color: rgb(219, 199, 171);
 }
@@ -85,7 +85,7 @@ input {
     height: 158px;
     object-fit: fill;
     margin-right: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #right{
     margin-top: 10px;
