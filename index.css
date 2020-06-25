@@ -65,7 +65,7 @@ h2{
     margin-left: 20px;
 }
 .second nav a{
-    background-color: green;
+    background-color: black;
     font-size: 40px;
     margin-right: 20px;
     border-radius: 5px;
@@ -163,5 +163,15 @@ footer{
     margin-left: 45px;
 }
 footer p{
-    margin-top: -6%;
+    margin-top: -2%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(126, 44, 6);
+}
+a:visited{
+    color: red;
 }
